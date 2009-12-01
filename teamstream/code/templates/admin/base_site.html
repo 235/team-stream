@@ -1,0 +1,10 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+
+{% block title %}{{ title|escape }} {% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="/">Front page</a> {% trans 'administration panel'%} <font size="-1">({% now "j F Y H:i" %})</font></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

@@ -1,0 +1,34 @@
+a.selected {
+	font-weight: bold;
+}
+
+.filter-controls {
+	padding-bottom: 5px;
+}
+
+#id_title {
+	width: 400px;
+}
+
+#id_plan_title {
+	width: 300px;
+}
+
+table {
+	border-color:#888888;
+}
+
+td, th, thead th, tfoot td, thead th, tfoot td {
+	border-bottom:1px solid #888888;
+	border-left:1px solid #888888;
+}
+
+table td, table th, thead th, tfoot td, thead th, tfoot td {
+	border-top:1px solid #888888;
+	border-bottom:1px solid #888888;
+	border-left:1px none;
+}
+
+.module {
+	border-color:#888888;
+}

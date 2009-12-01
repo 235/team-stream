@@ -1,0 +1,5 @@
+{% load i18n %}
+Your team stream on {{ workday|date:"d.m.Y" }}:
+{% for stream in streams %}
+ * {{ stream.work_start|time:"H:i" }} - {{ stream.work_end|time:"H:i" }} - {{ stream.text }} (project: {{ stream.project }})
+{% endfor %}
